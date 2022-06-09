@@ -1,0 +1,55 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 9, 2022, 12:28:06 PM
+    Author     : rivil
+*/
+/*Content box toma en cuenta contenido border y padding para el calculo de la caja
+border-box modifica los valores de vorde para que coincida*/
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    margin: auto;
+}
+.static{
+    position: static;
+    border: 3px solid green;
+    top: 400px;
+    left: 50px;
+        
+}
+.relative{
+    position: relative;
+    border: 3px solid green;
+    top: 400px;
+    left: 50px;
+    width: 400px;
+    height: 500px;
+        
+}
+
+.fixed{
+    position: fixed;
+    border: 3px solid green;
+    top: 400px;
+    left: 50px;
+           
+}
+
+.absolute{
+    position: absolute;
+    border: 3px solid green;
+    top: 80px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+           
+}
+
+
