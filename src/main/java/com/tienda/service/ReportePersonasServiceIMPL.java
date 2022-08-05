@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.service.impl;
+package com.tienda.service;
 
 import com.commons.JasperReportManager;
 import com.enums.TipoReporteEnum;
 import com.model.ReportePersonasDTO;
-import com.service.api.ReportePersonasServiceAPI;
+import com.tienda.service.ReportePersonasServiceAPI;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
