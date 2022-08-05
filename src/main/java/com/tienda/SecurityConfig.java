@@ -4,7 +4,6 @@
  */
 package com.tienda;
 
-import com.tienda.service.PersonaService;
 import com.tienda.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

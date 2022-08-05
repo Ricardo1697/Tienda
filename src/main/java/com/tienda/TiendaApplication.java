@@ -7,9 +7,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@SpringBootApplication
-@ComponentScan({"com.commons.JasperReportManager"})
-@EntityScan("com.entity.Persona")
+@SpringBootApplication(scanBasePackages = "src")
+@ComponentScan({"com.commons"})
+@EntityScan("com.tienda.entity")
 @EnableJpaRepositories("com.repository.PersonaRepository")
 public class TiendaApplication extends SpringBootServletInitializer  {
 

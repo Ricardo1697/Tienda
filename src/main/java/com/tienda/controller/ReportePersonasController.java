@@ -6,7 +6,7 @@ package com.tienda.controller;
 
 import com.enums.TipoReporteEnum;
 import com.model.ReportePersonasDTO;
-import com.tienda.service.ReportePersonasServiceAPI;
+import com.tienda.service.api.ReportePersonasServiceAPI;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Map;
